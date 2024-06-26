@@ -1,14 +1,14 @@
 import useProducts from "../../Utilities/useProducts";
-import Products from "../Shared/Product/Products";
+import Items from "../Shared/Items/Items";
 
 const Home = () => {
 
     const [item] = useProducts();
 
     return (
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-12 mx-4">
             {
-                item.map((product) =><Products
+                item.map((product) =><Items
                 key={product._id}
                 product={product}
                 />)

@@ -5,7 +5,7 @@
         "category": "tv",
         "price": 499.99,
         "description": "The Samsung Ultra HD TV offers an immersive viewing experience with 4K resolution and vibrant colors. Perfect for movie nights and gaming.",
-        "image": "https://ibb.co/KGQ5S3B"
+        "image": "https://media.e-valy.com/cms/products/images/bec6b891-5a90-490a-b11f-5f02fbf677e1"
     },
     {
         "_id": "2",
@@ -13,7 +13,7 @@
         "category": "tv",
         "price": 599.99,
         "description": "The LG Smart TV provides seamless access to streaming services and apps, delivering high-quality picture and sound for the ultimate entertainment experience.",
-        "image": "https://ibb.co/RpVbZCL"
+        "image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/32lq576bpsa_atr_eail_in_c/gallery/32LQ576BPSA-D-1.jpg"
     },
     {
         "_id": "3",
@@ -21,7 +21,7 @@
         "category": "tv",
         "price": 649.99,
         "description": "Sony Bravia TV combines stunning visuals with smart technology, offering 4K HDR and voice control for an enhanced home theater setup.",
-        "image": "https://ibb.co/SV8kQqz"
+        "image": "https://ecom.rangs.com.bd/storage/7784/860X740-01.jpg"
     },
     {
         "_id": "4",
@@ -29,7 +29,7 @@
         "category": "tv",
         "price": 299.99,
         "description": "The Toshiba LED TV delivers crisp, clear images and reliable performance, making it a great choice for any room in the house.",
-        "image": "https://ibb.co/MgvBYwZ"
+        "image": "https://cdn.bdstall.com/product-image/giant_261010.jpg"
     },
     {
         "_id": "5",
@@ -37,7 +37,7 @@
         "category": "tv",
         "price": 549.99,
         "description": "Panasonic 4K TV features ultra-high-definition picture quality and a sleek design, perfect for watching your favorite shows and movies.",
-        "image": "https://ibb.co/KrSccP0"
+        "image": "https://mke.com.bd/media/catalog/product/p/a/panasonic_55_th-55cx600s_4k_uhd_smart_led_television.png?store=default&image-type=image"
     },
     {
         "_id": "6",
@@ -45,7 +45,7 @@
         "category": "fridge",
         "price": 799.99,
         "description": "Whirlpool Double Door Fridge offers ample storage space, energy efficiency, and advanced cooling technology to keep your food fresh longer.",
-        "image": "https://ibb.co/27rV6Z4"
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/5/TX/FA/ZF/152871492/whirlpool-245-l-2-star-frost-free-double-door-refrigerator.jpg"
     },
     {
         "_id": "7",
@@ -53,7 +53,7 @@
         "category": "fridge",
         "price": 1199.99,
         "description": "Samsung Family Hub Fridge comes with a touch screen, smart connectivity, and large capacity, making it the centerpiece of any modern kitchen.",
-        "image": "https://ibb.co/VmMm6kH"
+        "image": "https://www.appliancesonline.com.au/ak/8/7/3/3/873372b95a6eb2ce097068bc5df7baf0b9e312a6_samsung_656l_family_hub_side_by_side_fridge_matte_black_srs656mbfh4_1_e8263c81_high-high.jpeg"
     },
     {
         "_id": "8",
@@ -61,7 +61,7 @@
         "category": "fridge",
         "price": 999.99,
         "description": "LG Smart Fridge features advanced cooling technology, energy efficiency, and smart home integration for ultimate convenience and freshness.",
-        "image": "https://ibb.co/ChZHRJf"
+        "image": "https://www.lg.com/content/dam/channel/wcms/uk/images/fridge-freezers/GSXV91BSAE_ABSQLGU_EEUK_UK_C/GSXV91BSAE_ABSQLGU_EEUK_UK_C-450x450.jpg"
     },
     {
         "_id": "9",
@@ -69,7 +69,7 @@
         "category": "fridge",
         "price": 849.99,
         "description": "Bosch Bottom Freezer Fridge offers a spacious layout, efficient cooling, and a stylish design to enhance any kitchen space.",
-        "image": "https://ibb.co/BV9dxmk"
+        "image": "https://www.mamtus.ng/media/catalog/product/cache/1/thumbnail/1000x600/9df78eab33525d08d6e5fb8d27136e95/b/o/bottom_freezer_2.jpg"
     },
     {
         "_id": "10",
@@ -77,7 +77,7 @@
         "category": "fridge",
         "price": 899.99,
         "description": "GE French Door Fridge provides large capacity, easy access to fresh food, and advanced cooling technology for optimal food preservation.",
-        "image": "https://ibb.co/StqJcyR"
+        "image": "https://www.cnet.com/a/img/resize/4f5d7fde0ad48f16ce73f47600281371eaba17e1/hub/2015/05/16/0b0dfa43-041a-4fd0-9fde-025efbe9b721/ge-french-door-refrigerator-pfe28rshss-product-photos-21.jpg?auto=webp&fit=crop&height=1200&width=1200"
     },
     {
         "_id": "11",
@@ -85,7 +85,7 @@
         "category": "ac",
         "price": 699.99,
         "description": "Daikin Split AC offers powerful cooling, energy efficiency, and quiet operation, perfect for creating a comfortable indoor environment.",
-        "image": "https://ibb.co/2g4tXb0"
+        "image": "https://media.croma.com/image/upload/v1664428758/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/258569_7_bgiy1n.png"
     },
     {
         "_id": "12",
@@ -93,7 +93,7 @@
         "category": "ac",
         "price": 749.99,
         "description": "LG Dual Inverter AC provides fast cooling, energy savings, and smart features, ensuring comfort and convenience in any room.",
-        "image": "https://ibb.co/DffHjHR"
+        "image": "https://www.lg.com/ph/images/residential-air-conditioners/md07528241/gallery/HSN09IPA_Desktop_11.jpg"
     },
     {
         "_id": "13",
@@ -101,7 +101,7 @@
         "category": "ac",
         "price": 799.99,
         "description": "Samsung Wind-Free AC offers innovative cooling without direct airflow, maintaining a comfortable temperature without cold drafts.",
-        "image": "https://ibb.co/fF4NLTW"
+        "image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/s/a/samsung-1.5-ton-with-ai-control-5.jpg"
     },
     {
         "_id": "14",
@@ -109,7 +109,7 @@
         "category": "ac",
         "price": 659.99,
         "description": "Hitachi Inverter AC combines powerful cooling, energy efficiency, and advanced technology to provide a comfortable indoor environment.",
-        "image": "https://ibb.co/yRtG5VK"
+        "image": "https://www.hitachiaircon.com/in/storage/images/product_header_images/thumbs_952x743/product_header_image_image_08fb20c038d041fb5c6cb9c15a16939d.jpg"
     },
     {
         "_id": "15",
@@ -117,7 +117,7 @@
         "category": "ac",
         "price": 699.99,
         "description": "Panasonic Air Conditioner offers reliable cooling performance, energy efficiency, and a sleek design, perfect for any home or office.",
-        "image": "https://ibb.co/0fcVkSt"
+        "image": "https://www.bdshop.com/pub/media/catalog/product/P/a/panasonic-inverter-econavi-air-conditioner-cs-s10pkh.JPG"
     },
     {
         "_id": "16",
@@ -125,7 +125,7 @@
         "category": "rice cooker",
         "price": 99.99,
         "description": "Tiger Multi-functional Rice Cooker features advanced cooking technology, multiple settings, and a large capacity for perfect rice every time.",
-        "image": "https://ibb.co/q1bBtMT"
+        "image": "https://tiger-corporation-us.com/wp-content/uploads/2017/06/JAX-T10U_Main1.png"
     },
     {
         "_id": "17",
@@ -133,7 +133,7 @@
         "category": "rice cooker",
         "price": 149.99,
         "description": "Zojirushi Micom Rice Cooker offers fuzzy logic technology, multiple cooking functions, and a sleek design for delicious rice and more.",
-        "image": "https://ibb.co/fX1qv5z"
+        "image": "https://www.zojirushi.com/user/images/prod/172.2.jpg"
     },
     {
         "_id": "18",
@@ -141,7 +141,7 @@
         "category": "rice cooker",
         "price": 79.99,
         "description": "Panasonic 5-Cup Rice Cooker provides easy operation, reliable performance, and a compact design, perfect for small kitchens.",
-        "image": "https://ibb.co/V2Rx6RT"
+        "image": "https://thegoodguys.sirv.com/products/50028467/50028467_114066.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&q=90"
     },
     {
         "_id": "19",
@@ -149,7 +149,7 @@
         "category": "rice cooker",
         "price": 129.99,
         "description": "Cuckoo Electric Rice Cooker features advanced cooking technology, multiple settings, and a stylish design for perfect rice every time.",
-        "image": "https://ibb.co/pvhQHQR"
+        "image": "https://keycompanyusa.com/cdn/shop/products/KGCR-0655F.jpg?v=1641768094&width=1946"
     },
     {
         "_id": "20",
@@ -157,7 +157,7 @@
         "category": "rice cooker",
         "price": 49.99,
         "description": "Hamilton Beach Rice Cooker offers easy operation, reliable performance, and a large capacity for perfect rice and grains every time.",
-        "image": "https://ibb.co/6DyVx9g"
+        "image": "https://images-cdn.ubuy.co.in/633ff02a0f94db34be1a59c1-advanced-multi-function-rice-cooker.jpg"
     },
     {
         "_id": "21",
@@ -165,7 +165,7 @@
         "category": "tv",
         "price": 579.99,
         "description": "Sharp 4K TV delivers stunning picture quality, smart features, and a sleek design, perfect for watching your favorite shows and movies.",
-        "image": "https://ibb.co/G03sHWZ"
+        "image": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_3000,f_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/c3299330-6ab9-11ea-8e87-8a541dae4315.jpg"
     },
     {
         "_id": "22",
@@ -173,7 +173,7 @@
         "category": "tv",
         "price": 329.99,
         "description": "Hisense LED TV offers vibrant colors, smart features, and a sleek design, making it a great choice for any room in the house.",
-        "image": "https://ibb.co/BzqM68d"
+        "image": "https://slot.ng/media/catalog/product/cache/39424f849707e837150551267d945aeb/image/24461443/hisense-led-tv-43-inches-smart-tv-fhd.png"
     },
     {
         "_id": "23",
@@ -181,7 +181,7 @@
         "category": "tv",
         "price": 449.99,
         "description": "Vizio Smart TV provides seamless access to streaming services and apps, delivering high-quality picture and sound for the ultimate entertainment experience.",
-        "image": "https://ibb.co/S6jPR4c"
+        "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476897_sd.jpg"
     },
     {
         "_id": "24",
@@ -189,7 +189,7 @@
         "category": "tv",
         "price": 499.99,
         "description": "Philips 4K TV features ultra-high-definition picture quality and a sleek design, perfect for watching your favorite shows and movies.",
-        "image": "https://ibb.co/LDTmyKp"
+        "image": "https://images.philips.com/is/image/philipsconsumer/a2bee98466304a038e23afbf00779ab7?$jpglarge$&wid=960"
     },
     {
         "_id": "25",
@@ -197,7 +197,7 @@
         "category": "fridge",
         "price": 749.99,
         "description": "Mitsubishi Refrigerator offers advanced cooling technology, energy efficiency, and a stylish design to enhance any kitchen space.",
-        "image": "https://ibb.co/Y8nCkxG"
+        "image": "https://acworld.com.bd/wp-content/uploads/2021/07/MITSUBISHI-Refrigerator-and-Freezer-684-Litres-MRL78EN.png"
     },
     {
         "_id": "26",
@@ -205,7 +205,7 @@
         "category": "fridge",
         "price": 899.99,
         "description": "Frigidaire Side-by-Side Fridge provides large capacity, easy access to fresh food, and advanced cooling technology for optimal food preservation.",
-        "image": "https://ibb.co/tz7bkp0"
+        "image": "https://www.ajmadison.com/ajmadison/images/large_no_watermark/fgfu19f6qf_fgru19f6qf_hov_tk_417599dd5d63e010_4d97f.jpg"
     },
     {
         "_id": "27",
@@ -213,7 +213,7 @@
         "category": "fridge",
         "price": 649.99,
         "description": "Haier Top Freezer Fridge offers a spacious layout, efficient cooling, and a stylish design to enhance any kitchen space.",
-        "image": "https://ibb.co/FJM3wYV"
+        "image": "https://cdn11.bigcommerce.com/s-g66perm7rt/images/stencil/1280x1280/products/1379/289133/418453507c87adfb3ba281e2fa38f057906f1610__55256.1679107351.jpg?c=1"
     },
     {
         "_id": "28",
@@ -221,7 +221,7 @@
         "category": "fridge",
         "price": 999.99,
         "description": "Electrolux French Door Fridge features large capacity, easy access to fresh food, and advanced cooling technology for optimal food preservation.",
-        "image": "https://ibb.co/LpPdTbp"
+        "image": "https://www.electrolux.com.ph/globalassets/appliances/fridge/ehe6879a-b/ehe6879a-b-front-1500x1500.png"
     },
     {
         "_id": "29",
@@ -229,7 +229,7 @@
         "category": "fridge",
         "price": 799.99,
         "description": "Daewoo Bottom Freezer Fridge offers a spacious layout, efficient cooling, and a stylish design to enhance any kitchen space.",
-        "image": "https://ibb.co/KD8HmSH"
+        "image": "https://www.appliancesdirect.co.uk/Images/RN173NB_2_supersize.jpg?v=4"
     },
     {
         "_id": "30",
@@ -237,7 +237,7 @@
         "category": "ac",
         "price": 649.99,
         "description": "Midea Split AC offers powerful cooling, energy efficiency, and quiet operation, perfect for creating a comfortable indoor environment.",
-        "image": "https://ibb.co/SXttQq1"
+        "image": "https://d1pjg4o0tbonat.cloudfront.net/content/dam/midea-aem/us/air-conditioners/split-system/midea-9000-btu-mini-split-ac/midea-9000-btu-mini-split-ac.jpeg/jcr:content/renditions/cq5dam.web.5000.5000.jpeg"
     },
     {
         "_id": "31",
@@ -245,7 +245,7 @@
         "category": "ac",
         "price": 699.99,
         "description": "Blue Star Inverter AC provides fast cooling, energy savings, and smart features, ensuring comfort and convenience in any room.",
-        "image": "https://ibb.co/kQfwndS"
+        "image": "https://consumer.bluestarindia.com/pub/media/catalog/product/cache/306dd014bf4d3bf54df1536b8c4e0b54/g/a/gallery-images-01_6.png"
     },
     {
         "_id": "32",
@@ -253,7 +253,7 @@
         "category": "ac",
         "price": 749.99,
         "description": "Carrier Split AC offers reliable cooling performance, energy efficiency, and a sleek design, perfect for any home or office.",
-        "image": "https://ibb.co/d458QvK"
+        "image": "https://www.clickbd.com/global/classified/item_img/2649469_0_original.jpg"
     },
     {
         "_id": "33",
@@ -261,7 +261,7 @@
         "category": "ac",
         "price": 599.99,
         "description": "Voltas Split AC combines powerful cooling, energy efficiency, and advanced technology to provide a comfortable indoor environment.",
-        "image": "https://ibb.co/C6ztrj1"
+        "image": "https://m.media-amazon.com/images/I/61a2L5aTwAL.jpg"
     },
     {
         "_id": "34",
@@ -269,7 +269,7 @@
         "category": "ac",
         "price": 649.99,
         "description": "Godrej Split AC offers efficient cooling, energy savings, and a sleek design, perfect for maintaining a comfortable indoor climate.",
-        "image": "https://ibb.co/f9X22Y0"
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/2/VP/MM/LQ/140524816/godrej-1-5-ton-5-star-split-gic-18ttc5-wva-ac.png"
     },
     {
         "_id": "35",
@@ -277,7 +277,7 @@
         "category": "rice cooker",
         "price": 89.99,
         "description": "Toshiba Rice Cooker features multiple cooking functions, advanced technology, and a compact design for perfect rice every time.",
-        "image": "https://ibb.co/0CDNTJt"
+        "image": "https://d1pjg4o0tbonat.cloudfront.net/content/dam/toshiba-aem/sg/kitchen-appliances/rice-cookers/1-0l-electric-rice-cooker/gallery1.jpg/jcr:content/renditions/cq5dam.web.5000.5000.jpeg"
     },
     {
         "_id": "36",
@@ -285,7 +285,7 @@
         "category": "rice cooker",
         "price": 59.99,
         "description": "Oster Rice Cooker provides easy operation, reliable performance, and a large capacity for perfect rice and grains every time.",
-        "image": "https://ibb.co/0GMjWtG"
+        "image": "https://newellbrands.imgix.net/0ff2aa14-ae04-3dce-ad25-803f3763d47c/0ff2aa14-ae04-3dce-ad25-803f3763d47c.jpg?auto=format,compress&w=2000&h=2000"
     },
     {
         "_id": "37",
@@ -293,7 +293,7 @@
         "category": "rice cooker",
         "price": 139.99,
         "description": "Breville Smart Rice Cooker features advanced cooking technology, multiple settings, and a sleek design for perfect rice and more.",
-        "image": "https://ibb.co/0rxGskT"
+        "image": "https://pdbimg.choice.com.au/breville-the-smart-rice-box-lrc480wht_1.jpg"
     },
     {
         "_id": "38",
@@ -301,7 +301,7 @@
         "category": "rice cooker",
         "price": 69.99,
         "description": "Aroma Housewares Rice Cooker offers easy operation, reliable performance, and a large capacity for perfect rice and grains every time.",
-        "image": "https://ibb.co/WcSF70f"
+        "image": "https://m.media-amazon.com/images/I/71Zu3KZ2GxL._AC_SL1500_.jpg"
     },
     {
         "_id": "39",
@@ -309,7 +309,7 @@
         "category": "rice cooker",
         "price": 39.99,
         "description": "Black+Decker Rice Cooker provides easy operation, reliable performance, and a compact design, perfect for small kitchens.",
-        "image": "https://ibb.co/YfMqRH2"
+        "image": "https://shoka-asia.com/wp-content/uploads/2023/09/black-and-decker-rice-cooker-2.8-l_NO-BACKGROUND-2.webp"
     },
     {
         "_id": "40",
@@ -317,7 +317,7 @@
         "category": "tv",
         "price": 1399.99,
         "description": "Sony OLED TV delivers stunning picture quality, smart features, and a sleek design, perfect for watching your favorite shows and movies.",
-        "image": "https://ibb.co/19KYZbS"
+        "image": "https://i5.walmartimages.com/seo/Sony-42-Class-A90K-4K-HDR-OLED-TV-with-smart-Google-TV-XR42A90K-2022-Model_c0f1d9e2-f295-4fd8-a8de-fd76e331ca1f.39ffdb8642350483d0f82c6b8ea23da5.jpeg"
     },
     {
         "_id": "41",
@@ -325,7 +325,7 @@
         "category": "tv",
         "price": 249.99,
         "description": "RCA LED TV offers vibrant colors, smart features, and a sleek design, making it a great choice for any room in the house.",
-        "image": "https://ibb.co/sCLyTfS"
+        "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1799/1799212ld.jpg"
     },
     {
         "_id": "42",
@@ -333,7 +333,7 @@
         "category": "tv",
         "price": 349.99,
         "description": "Insignia Smart TV provides seamless access to streaming services and apps, delivering high-quality picture and sound for the ultimate entertainment experience.",
-        "image": "https://ibb.co/XfQtRD6"
+        "image": "https://m.media-amazon.com/images/I/81lj598woRL._AC_SL1500_.jpg"
     },
     {
         "_id": "43",
@@ -341,7 +341,7 @@
         "category": "tv",
         "price": 429.99,
         "description": "JVC 4K TV features ultra-high-definition picture quality and a sleek design, perfect for watching your favorite shows and movies.",
-        "image": "https://ibb.co/pyjCx7d"
+        "image": "https://www.appliancesonline.com.au/ak/4/b/5/0/4b50e53e0e641e65b35a920476aaa572c8da97d9_AV_H657115A11_Front_JVC-high.jpeg"
     },
     {
         "_id": "44",
@@ -349,7 +349,7 @@
         "category": "tv",
         "price": 389.99,
         "description": "TCL 4K TV offers stunning visuals, smart features, and a sleek design, making it a great choice for any room in the house.",
-        "image": "https://ibb.co/bHtRCVt"
+        "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/region/uk/products/tv/r-series/rc630k/product-image/new-23-12-08/01-50.jpg?t=1702016441963&webp=true&dpr=2.625&rendition=1068"
     },
     {
         "_id": "45",
@@ -357,7 +357,7 @@
         "category": "fridge",
         "price": 649.99,
         "description": "Hotpoint Top Freezer Fridge offers a spacious layout, efficient cooling, and a stylish design to enhance any kitchen space.",
-        "image": "https://ibb.co/Hgk6Y1T"
+        "image": "https://crdms.images.consumerreports.org/prod/products/cr/models/399861-28-inch-and-narrower-widths-hotpoint-hps16btnrww-10013368.png"
     },
     {
         "_id": "46",
@@ -365,7 +365,7 @@
         "category": "fridge",
         "price": 1299.99,
         "description": "Samsung Bespoke Fridge comes with customizable panels, smart connectivity, and large capacity, making it the centerpiece of any modern kitchen.",
-        "image": "https://ibb.co/jDw9gfF"
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/nz/feature/163961859/nz-feature-counter-depth-bespoke-customizable-design-532126075?$FB_TYPE_I_JPG$"
     },
     {
         "_id": "47",
@@ -373,7 +373,7 @@
         "category": "fridge",
         "price": 1399.99,
         "description": "LG InstaView Fridge features a sleek glass panel, advanced cooling technology, and smart home integration for ultimate convenience and freshness.",
-        "image": "https://ibb.co/st6pPxF"
+        "image": "https://www.lg.com/africa/images/refrigerators/md05871616/gallery/DZ_02.jpg"
     },
     {
         "_id": "48",
@@ -381,7 +381,7 @@
         "category": "fridge",
         "price": 899.99,
         "description": "Whirlpool Bottom Freezer Fridge offers ample storage space, energy efficiency, and advanced cooling technology to keep your food fresh longer.",
-        "image": "https://ibb.co/ZGTJ8KF"
+        "image": "https://www.pcrichard.com/dw/image/v2/BFXM_PRD/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dwca08493d/images/hires/AZ1_WRB322DMBM.jpg?sw=800&sh=800&sm=fit"
     },
     {
         "_id": "49",
@@ -389,7 +389,7 @@
         "category": "fridge",
         "price": 1199.99,
         "description": "Siemens French Door Fridge provides large capacity, easy access to fresh food, and advanced cooling technology for optimal food preservation.",
-        "image": "https://ibb.co/dJth6vr"
+        "image": "https://i.pinimg.com/474x/73/c7/46/73c7463c8622821cb0376cec0b9fb0ec.jpg"
     },
     {
         "_id": "50",
@@ -397,6 +397,6 @@
         "category": "ac",
         "price": 499.99,
         "description": "Daikin Window AC offers powerful cooling, energy efficiency, and easy installation, perfect for creating a comfortable indoor environment.",
-        "image": "https://ibb.co/MGwvgrk"
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2023/3/MT/XP/WD/10346562/product-jpeg.jpg"
     }
 ]

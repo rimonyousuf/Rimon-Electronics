@@ -1,4 +1,13 @@
 const Login = () => {
+
+    const handleLogin = event => {
+        event.preventDefault();
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(email, password);
+    }
+
     return (
         <>
             <div className="hero min-h-screen bg-base-200">
@@ -8,7 +17,7 @@ const Login = () => {
                         <p className="py-6">Your gateway to smarter living starts here. Login for exclusive electronic offers.</p>
                     </div>
                     <div className="card w-1/2 max-w-sm shadow-2xl bg-base-100">
-                        <form className="card-body">
+                        <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

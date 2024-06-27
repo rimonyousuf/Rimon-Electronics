@@ -1,11 +1,44 @@
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
+import Swal from "sweetalert2";
+
 const Login = () => {
+
+    const {signIn} = useAuth()
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || "/";
 
     const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(email, password);
+        signIn(email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                Swal.fire({
+                    title: "Login successfull",
+                    showClass: {
+                        popup: `
+                        animate__animated
+                        animate__fadeInUp
+                        animate__faster
+                      `
+                    },
+                    hideClass: {
+                        popup: `
+                        animate__animated
+                        animate__fadeOutDown
+                        animate__faster
+                      `
+                    }
+                });
+                navigate(from, {replace: true});
+            })
     }
 
     return (
@@ -37,8 +70,8 @@ const Login = () => {
                                 <input className="btn btn-primary" type="submit" value="Login" />
                             </div>
                         </form>
-                        {/* <p className='mx-auto mb-3'><small>Don't have account?<Link to="/signup" className='text-red-800'>Sign up here</Link></small></p>
-                        <SocialLogin></SocialLogin> */}
+                        <p className='mx-auto mb-3'><small>Don't have account?<Link to="/register" className='text-red-800'>Sign up here</Link></small></p>
+                        {/* <SocialLogin></SocialLogin> */}
                     </div>
                 </div>
             </div>

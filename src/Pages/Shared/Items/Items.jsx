@@ -1,6 +1,58 @@
+import { useLocation, useNavigate } from "react-router-dom";
+import useAxiosSecure from "../../../Utilities/useAxiosSecure";
+import useCart from "../../../Utilities/useCart";
+import useAuth from "../../../hooks/useAuth";
+import Swal from "sweetalert2";
+
 const Items = ({ product }) => {
 
-    const { name, image, category, price, description } = product
+    const { name, image, category, price, description, _id } = product
+    const navigate = useNavigate();
+    const location = useLocation();
+    const axiosSecure = useAxiosSecure();
+    const [, refetch] = useCart()
+
+    const { user } = useAuth()
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+            const cartItem = {
+                itemId: _id,
+                email: user.email,
+                name,
+                image,
+                price
+            }
+            axiosSecure.post('/carts', cartItem)
+                .then(res => {
+                    if (res.data.insertedId) {
+                        Swal.fire({
+                            position: "center",
+                            icon: "success",
+                            title: `${name} added to your cart`,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        refetch();
+                    }
+                })
+        }
+        else {
+            Swal.fire({
+                title: "You are not logged in",
+                text: "Please login to add the item",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, login"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate("/login", { state: { from: location } })
+                }
+            });
+        }
+    }
 
     return (
         <div className="card bg-base-100 w-96 shadow-xl mt-4">
@@ -16,7 +68,7 @@ const Items = ({ product }) => {
                     <div className="badge badge-outline">$ {price}</div>
                 </div>
             </div>
-            <button className="btn btn-outline btn-primary m-2">Add to Cart</button>
+            <button onClick={handleAddToCart} className="btn btn-outline btn-primary m-2">Add to Cart</button>
         </div>
     );
 };

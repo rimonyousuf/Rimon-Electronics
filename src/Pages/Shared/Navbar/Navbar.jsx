@@ -1,14 +1,34 @@
 import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.png"
 import './Navbar.css'
+import useAuth from "../../../hooks/useAuth";
 
 const Navbar = () => {
+
+    const { user, logOut } = useAuth()
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => {
+                console.log(error)
+            })
+    }
 
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/carts">Carts</Link></li>
         <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        {
+            user ?
+                <>
+                    <button onClick={handleLogOut} className="btn btn-ghost pb-3">Log Out</button>
+                </>
+                :
+                <>
+                    <li><Link to="/login">Login</Link></li>
+                </>
+        }
     </>
 
     return (

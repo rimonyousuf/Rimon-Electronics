@@ -17,7 +17,7 @@ const Navbar = () => {
 
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/carts">Carts</Link></li>
+        <li><Link to="/cart">Carts</Link></li>
         <li><Link to="/about">About Us</Link></li>
         {
             user ?
@@ -27,6 +27,7 @@ const Navbar = () => {
                 :
                 <>
                     <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/register">Register</Link></li>
                 </>
         }
     </>

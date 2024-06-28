@@ -3,6 +3,7 @@ import useAxiosPublic from "../../Utilities/useAxiosPublic";
 import useAuth from "../../hooks/useAuth";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet-async";
 
 const Register = () => {
 
@@ -12,11 +13,9 @@ const Register = () => {
     const navigate = useNavigate()
 
     const onSubmit = (data) => {
-        console.log(data)
         createUser(data.email, data.password)
             .then(result => {
                 const loggedUser = result.user;
-                console.log(loggedUser);
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
                         const userInfo = {
@@ -46,6 +45,9 @@ const Register = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Restaurant | Register</title>
+            </Helmet>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">

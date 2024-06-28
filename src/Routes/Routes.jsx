@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import Cart from "../Pages/Cart/Cart";
+import PrivateRoutes from "./PrivateRoutes";
 
   export const router = createBrowserRouter([
     {
@@ -26,7 +27,7 @@ import Cart from "../Pages/Cart/Cart";
             },
             {
                 path: "/cart",
-                element: <Cart/>
+                element: <PrivateRoutes><Cart/></PrivateRoutes>
             },
         ]
     }

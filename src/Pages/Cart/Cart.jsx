@@ -2,10 +2,12 @@ import Swal from "sweetalert2";
 import useAxiosSecure from "../../Utilities/useAxiosSecure";
 import useCart from "../../Utilities/useCart";
 import { Link } from "react-router-dom";
+import { FaTrashAlt } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 const Cart = () => {
 
-    const [cart,refetch] = useCart();
+    const [cart, refetch] = useCart();
     const totalPrice = cart.reduce((total, item) => total + item.price, 0)
     const axiosSecure = useAxiosSecure();
 
@@ -37,6 +39,9 @@ const Cart = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Restaurant | Cart</title>
+            </Helmet>
             <div className="flex justify-evenly mb-8 py-8">
                 <h2 className="text-4xl">Items: {cart.length}</h2>
                 <h2 className="text-4xl">Total: ${totalPrice}</h2>
@@ -82,8 +87,8 @@ const Cart = () => {
                                 <th>
                                     <button
                                         onClick={() => handleDelete(item._id)}
-                                        className="btn btn-ghost btn-lg">Delete
-                                        {/* <FaTrashAlt className="text-red-600"></FaTrashAlt> */}
+                                        className="btn btn-ghost btn-lg">
+                                        <FaTrashAlt className="text-red-600"></FaTrashAlt>
                                     </button>
                                 </th>
                             </tr>)

@@ -17,7 +17,9 @@ const Navbar = () => {
 
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/cart">Carts</Link></li>
+        {
+            user && <li><Link to="/cart">Carts</Link></li>
+        }
         <li><Link to="/about">About Us</Link></li>
         {
             user ?
@@ -34,7 +36,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar bg-opacity-85 max-w-screen-xl bg-black">
+            <div className="navbar bg-opacity-85 max-w-screen-xl bg-blue-500">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

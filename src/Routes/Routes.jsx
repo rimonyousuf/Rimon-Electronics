@@ -26,20 +26,20 @@ import Cart from "../Pages/Cart/Cart";
                 path: "/register",
                 element: <Register/>
             },
+            // {
+            //     path: "/cart",
+            //     element: <Cart/>
+            // }
+        ]
+    },
+    {
+        path: "/dashboard",
+        element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>,
+        children: [
             {
-                path: "/cart",
+                path: "cart",
                 element: <Cart/>
             }
         ]
-    },
-    // {
-    //     path: "/dashboard",
-    //     element: <PrivateRoutes><Dashboard/></PrivateRoutes>,
-    //     children: [
-    //         {
-    //             path: "/cart",
-    //             element: <Cart/>
-    //         }
-    //     ]
-    // }
+    }
   ])

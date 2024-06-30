@@ -10,7 +10,7 @@ const Dashboard = () => {
 
     return (
         <div className="flex">
-            <div className="w-64 min-h-screen bg-orange-400">
+            <div className="w-64 min-h-screen bg-blue-300">
                 <ul className="menu">
                     {
                         isAdmin ?
@@ -88,13 +88,7 @@ const Dashboard = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/order/salad">
-                            <FaListAlt></FaListAlt>
-                            Menu
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/order/contact">
+                        <NavLink to="/contact">
                             <FaEnvelope></FaEnvelope>
                             Contact
                         </NavLink>

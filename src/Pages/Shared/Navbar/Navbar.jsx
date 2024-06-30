@@ -18,7 +18,7 @@ const Navbar = () => {
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         {
-            user && <li><Link to="/cart">Carts</Link></li>
+            user && <li><Link to="/dashboard/cart">Carts</Link></li>
         }
         <li><Link to="/about">About Us</Link></li>
         {

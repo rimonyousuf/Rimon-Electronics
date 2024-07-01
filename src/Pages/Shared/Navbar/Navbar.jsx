@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.png"
 import './Navbar.css'
 import useAuth from "../../../hooks/useAuth";
+import useAdmin from "../../../Utilities/useAdmin";
 
 const Navbar = () => {
 
     const { user, logOut } = useAuth()
+    const [isAdmin] = useAdmin();
 
     const handleLogOut = () => {
         logOut()
@@ -18,8 +20,19 @@ const Navbar = () => {
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         {
-            user && <li><Link to="/dashboard/cart">Carts</Link></li>
+            user && <>
+                {
+                    isAdmin ?
+                        <>
+                            <li><Link to="/dashboard/users">Dashboard</Link></li>
+                        </> :
+                        <li><Link to="/dashboard/cart">Cart</Link></li>
+                }
+            </>
         }
+        {/* {
+            isAdmin && <li><Link to="/dashboard/users">Dashboard</Link></li>
+        } */}
         <li><Link to="/about">About Us</Link></li>
         {
             user ?

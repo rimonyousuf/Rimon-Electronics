@@ -40,7 +40,7 @@ const Cart = () => {
     return (
         <div>
             <Helmet>
-                <title>Restaurant - Cart</title>
+                <title>Rimon Electronics - Cart</title>
             </Helmet>
             <div className="flex justify-evenly mb-8 py-8">
                 <h2 className="text-4xl">Items: {cart.length}</h2>

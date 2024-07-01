@@ -47,7 +47,7 @@ const AllUsers = () => {
                         if (res.data.deletedCount > 0) {
                             Swal.fire({
                                 title: "Deleted!",
-                                text: "Your file has been deleted.",
+                                text: "Admin has been deleted.",
                                 icon: "success"
                             });
                             refetch();

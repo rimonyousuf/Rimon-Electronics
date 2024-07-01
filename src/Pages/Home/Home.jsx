@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Restaurant | Home</title>
+                <title>Restaurant - Home</title>
             </Helmet>
             <div className="grid md:grid-cols-3 gap-12 mx-4">
                 {

@@ -1,6 +1,5 @@
 [
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C96",
         "name": "Samsung Ultra HD TV",
         "category": "tv",
         "price": 499.99,
@@ -8,7 +7,6 @@
         "image": "https://media.e-valy.com/cms/products/images/bec6b891-5a90-490a-b11f-5f02fbf677e1"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C97",
         "name": "LG Smart TV",
         "category": "tv",
         "price": 599.99,
@@ -16,7 +14,6 @@
         "image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/32lq576bpsa_atr_eail_in_c/gallery/32LQ576BPSA-D-1.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C98",
         "name": "Sony Bravia TV",
         "category": "tv",
         "price": 649.99,
@@ -24,7 +21,6 @@
         "image": "https://ecom.rangs.com.bd/storage/7784/860X740-01.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C99",
         "name": "Toshiba LED TV",
         "category": "tv",
         "price": 299.99,
@@ -32,7 +28,6 @@
         "image": "https://cdn.bdstall.com/product-image/giant_261010.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9A",
         "name": "Panasonic 4K TV",
         "category": "tv",
         "price": 549.99,
@@ -40,7 +35,6 @@
         "image": "https://mke.com.bd/media/catalog/product/p/a/panasonic_55_th-55cx600s_4k_uhd_smart_led_television.png?store=default&image-type=image"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9B",
         "name": "Whirlpool Double Door Fridge",
         "category": "fridge",
         "price": 799.99,
@@ -48,7 +42,6 @@
         "image": "https://5.imimg.com/data5/SELLER/Default/2022/5/TX/FA/ZF/152871492/whirlpool-245-l-2-star-frost-free-double-door-refrigerator.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9C",
         "name": "Samsung Family Hub Fridge",
         "category": "fridge",
         "price": 1199.99,
@@ -56,7 +49,6 @@
         "image": "https://www.appliancesonline.com.au/ak/8/7/3/3/873372b95a6eb2ce097068bc5df7baf0b9e312a6_samsung_656l_family_hub_side_by_side_fridge_matte_black_srs656mbfh4_1_e8263c81_high-high.jpeg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9D",
         "name": "LG Smart Fridge",
         "category": "fridge",
         "price": 999.99,
@@ -64,7 +56,6 @@
         "image": "https://www.lg.com/content/dam/channel/wcms/uk/images/fridge-freezers/GSXV91BSAE_ABSQLGU_EEUK_UK_C/GSXV91BSAE_ABSQLGU_EEUK_UK_C-450x450.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9E",
         "name": "Bosch Bottom Freezer Fridge",
         "category": "fridge",
         "price": 849.99,
@@ -72,7 +63,6 @@
         "image": "https://www.mamtus.ng/media/catalog/product/cache/1/thumbnail/1000x600/9df78eab33525d08d6e5fb8d27136e95/b/o/bottom_freezer_2.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3C9F",
         "name": "GE French Door Fridge",
         "category": "fridge",
         "price": 899.99,
@@ -80,7 +70,6 @@
         "image": "https://www.cnet.com/a/img/resize/4f5d7fde0ad48f16ce73f47600281371eaba17e1/hub/2015/05/16/0b0dfa43-041a-4fd0-9fde-025efbe9b721/ge-french-door-refrigerator-pfe28rshss-product-photos-21.jpg?auto=webp&fit=crop&height=1200&width=1200"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA0",
         "name": "Daikin Split AC",
         "category": "ac",
         "price": 699.99,
@@ -88,7 +77,6 @@
         "image": "https://media.croma.com/image/upload/v1664428758/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/258569_7_bgiy1n.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA1",
         "name": "LG Dual Inverter AC",
         "category": "ac",
         "price": 749.99,
@@ -96,7 +84,6 @@
         "image": "https://www.lg.com/ph/images/residential-air-conditioners/md07528241/gallery/HSN09IPA_Desktop_11.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA2",
         "name": "Samsung Wind-Free AC",
         "category": "ac",
         "price": 799.99,
@@ -104,7 +91,6 @@
         "image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/s/a/samsung-1.5-ton-with-ai-control-5.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA3",
         "name": "Hitachi Inverter AC",
         "category": "ac",
         "price": 659.99,
@@ -112,7 +98,6 @@
         "image": "https://www.hitachiaircon.com/in/storage/images/product_header_images/thumbs_952x743/product_header_image_image_08fb20c038d041fb5c6cb9c15a16939d.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA4",
         "name": "Panasonic Air Conditioner",
         "category": "ac",
         "price": 699.99,
@@ -120,7 +105,6 @@
         "image": "https://www.bdshop.com/pub/media/catalog/product/P/a/panasonic-inverter-econavi-air-conditioner-cs-s10pkh.JPG"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA5",
         "name": "Tiger Multi-functional Rice Cooker",
         "category": "rice cooker",
         "price": 99.99,
@@ -128,7 +112,6 @@
         "image": "https://tiger-corporation-us.com/wp-content/uploads/2017/06/JAX-T10U_Main1.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA6",
         "name": "Zojirushi Micom Rice Cooker",
         "category": "rice cooker",
         "price": 149.99,
@@ -136,7 +119,6 @@
         "image": "https://www.zojirushi.com/user/images/prod/172.2.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA7",
         "name": "Panasonic 5-Cup Rice Cooker",
         "category": "rice cooker",
         "price": 79.99,
@@ -144,7 +126,6 @@
         "image": "https://thegoodguys.sirv.com/products/50028467/50028467_114066.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&q=90"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA8",
         "name": "Cuckoo Electric Rice Cooker",
         "category": "rice cooker",
         "price": 129.99,
@@ -152,7 +133,6 @@
         "image": "https://keycompanyusa.com/cdn/shop/products/KGCR-0655F.jpg?v=1641768094&width=1946"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CA9",
         "name": "Hamilton Beach Rice Cooker",
         "category": "rice cooker",
         "price": 49.99,
@@ -160,7 +140,6 @@
         "image": "https://images-cdn.ubuy.co.in/633ff02a0f94db34be1a59c1-advanced-multi-function-rice-cooker.jpg"
     },
     {
-        "_id": "20x5F7C8E3D5F6A8B7E2D5A3CAA1",
         "name": "Sharp 4K TV",
         "category": "tv",
         "price": 579.99,
@@ -168,7 +147,6 @@
         "image": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_3000,f_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/c3299330-6ab9-11ea-8e87-8a541dae4315.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CAB",
         "name": "Hisense LED TV",
         "category": "tv",
         "price": 329.99,
@@ -176,7 +154,6 @@
         "image": "https://slot.ng/media/catalog/product/cache/39424f849707e837150551267d945aeb/image/24461443/hisense-led-tv-43-inches-smart-tv-fhd.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CAC",
         "name": "Vizio Smart TV",
         "category": "tv",
         "price": 449.99,
@@ -184,7 +161,6 @@
         "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476897_sd.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CAD",
         "name": "Philips 4K TV",
         "category": "tv",
         "price": 499.99,
@@ -192,7 +168,6 @@
         "image": "https://images.philips.com/is/image/philipsconsumer/a2bee98466304a038e23afbf00779ab7?$jpglarge$&wid=960"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CAE",
         "name": "Mitsubishi Refrigerator",
         "category": "fridge",
         "price": 749.99,
@@ -200,7 +175,6 @@
         "image": "https://acworld.com.bd/wp-content/uploads/2021/07/MITSUBISHI-Refrigerator-and-Freezer-684-Litres-MRL78EN.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CAF",
         "name": "Frigidaire Side-by-Side Fridge",
         "category": "fridge",
         "price": 899.99,
@@ -208,7 +182,6 @@
         "image": "https://www.ajmadison.com/ajmadison/images/large_no_watermark/fgfu19f6qf_fgru19f6qf_hov_tk_417599dd5d63e010_4d97f.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB0",
         "name": "Haier Top Freezer Fridge",
         "category": "fridge",
         "price": 649.99,
@@ -216,7 +189,6 @@
         "image": "https://cdn11.bigcommerce.com/s-g66perm7rt/images/stencil/1280x1280/products/1379/289133/418453507c87adfb3ba281e2fa38f057906f1610__55256.1679107351.jpg?c=1"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB1",
         "name": "Electrolux French Door Fridge",
         "category": "fridge",
         "price": 999.99,
@@ -224,7 +196,6 @@
         "image": "https://www.electrolux.com.ph/globalassets/appliances/fridge/ehe6879a-b/ehe6879a-b-front-1500x1500.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB2",
         "name": "Daewoo Bottom Freezer Fridge",
         "category": "fridge",
         "price": 799.99,
@@ -232,7 +203,6 @@
         "image": "https://www.appliancesdirect.co.uk/Images/RN173NB_2_supersize.jpg?v=4"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB3",
         "name": "Midea Split AC",
         "category": "ac",
         "price": 649.99,
@@ -240,7 +210,6 @@
         "image": "https://d1pjg4o0tbonat.cloudfront.net/content/dam/midea-aem/us/air-conditioners/split-system/midea-9000-btu-mini-split-ac/midea-9000-btu-mini-split-ac.jpeg/jcr:content/renditions/cq5dam.web.5000.5000.jpeg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB4",
         "name": "Blue Star Inverter AC",
         "category": "ac",
         "price": 699.99,
@@ -248,7 +217,6 @@
         "image": "https://consumer.bluestarindia.com/pub/media/catalog/product/cache/306dd014bf4d3bf54df1536b8c4e0b54/g/a/gallery-images-01_6.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB5",
         "name": "Carrier Split AC",
         "category": "ac",
         "price": 749.99,
@@ -256,7 +224,6 @@
         "image": "https://www.clickbd.com/global/classified/item_img/2649469_0_original.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB6",
         "name": "Voltas Split AC",
         "category": "ac",
         "price": 599.99,
@@ -264,7 +231,6 @@
         "image": "https://m.media-amazon.com/images/I/61a2L5aTwAL.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB7",
         "name": "Godrej Split AC",
         "category": "ac",
         "price": 649.99,
@@ -272,7 +238,6 @@
         "image": "https://5.imimg.com/data5/SELLER/Default/2023/2/VP/MM/LQ/140524816/godrej-1-5-ton-5-star-split-gic-18ttc5-wva-ac.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB8",
         "name": "Toshiba Rice Cooker",
         "category": "rice cooker",
         "price": 89.99,
@@ -280,7 +245,6 @@
         "image": "https://d1pjg4o0tbonat.cloudfront.net/content/dam/toshiba-aem/sg/kitchen-appliances/rice-cookers/1-0l-electric-rice-cooker/gallery1.jpg/jcr:content/renditions/cq5dam.web.5000.5000.jpeg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CB9",
         "name": "Oster Rice Cooker",
         "category": "rice cooker",
         "price": 59.99,
@@ -288,7 +252,6 @@
         "image": "https://newellbrands.imgix.net/0ff2aa14-ae04-3dce-ad25-803f3763d47c/0ff2aa14-ae04-3dce-ad25-803f3763d47c.jpg?auto=format,compress&w=2000&h=2000"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBA",
         "name": "Breville Smart Rice Cooker",
         "category": "rice cooker",
         "price": 139.99,
@@ -296,7 +259,6 @@
         "image": "https://pdbimg.choice.com.au/breville-the-smart-rice-box-lrc480wht_1.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBB",
         "name": "Aroma Housewares Rice Cooker",
         "category": "rice cooker",
         "price": 69.99,
@@ -304,7 +266,6 @@
         "image": "https://m.media-amazon.com/images/I/71Zu3KZ2GxL._AC_SL1500_.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBC",
         "name": "Black+Decker Rice Cooker",
         "category": "rice cooker",
         "price": 39.99,
@@ -312,7 +273,6 @@
         "image": "https://shoka-asia.com/wp-content/uploads/2023/09/black-and-decker-rice-cooker-2.8-l_NO-BACKGROUND-2.webp"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBD",
         "name": "Sony OLED TV",
         "category": "tv",
         "price": 1399.99,
@@ -320,7 +280,6 @@
         "image": "https://i5.walmartimages.com/seo/Sony-42-Class-A90K-4K-HDR-OLED-TV-with-smart-Google-TV-XR42A90K-2022-Model_c0f1d9e2-f295-4fd8-a8de-fd76e331ca1f.39ffdb8642350483d0f82c6b8ea23da5.jpeg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBE",
         "name": "RCA LED TV",
         "category": "tv",
         "price": 249.99,
@@ -328,7 +287,6 @@
         "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1799/1799212ld.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CBF",
         "name": "Insignia Smart TV",
         "category": "tv",
         "price": 349.99,
@@ -336,7 +294,6 @@
         "image": "https://m.media-amazon.com/images/I/81lj598woRL._AC_SL1500_.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC0",
         "name": "JVC 4K TV",
         "category": "tv",
         "price": 429.99,
@@ -344,7 +301,6 @@
         "image": "https://www.appliancesonline.com.au/ak/4/b/5/0/4b50e53e0e641e65b35a920476aaa572c8da97d9_AV_H657115A11_Front_JVC-high.jpeg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC1",
         "name": "TCL 4K TV",
         "category": "tv",
         "price": 389.99,
@@ -352,7 +308,6 @@
         "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/region/uk/products/tv/r-series/rc630k/product-image/new-23-12-08/01-50.jpg?t=1702016441963&webp=true&dpr=2.625&rendition=1068"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC2",
         "name": "Hotpoint Top Freezer Fridge",
         "category": "fridge",
         "price": 649.99,
@@ -360,7 +315,6 @@
         "image": "https://crdms.images.consumerreports.org/prod/products/cr/models/399861-28-inch-and-narrower-widths-hotpoint-hps16btnrww-10013368.png"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC3",
         "name": "Samsung Bespoke Fridge",
         "category": "fridge",
         "price": 1299.99,
@@ -368,7 +322,6 @@
         "image": "https://images.samsung.com/is/image/samsung/p6pim/nz/feature/163961859/nz-feature-counter-depth-bespoke-customizable-design-532126075?$FB_TYPE_I_JPG$"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC4",
         "name": "LG InstaView Fridge",
         "category": "fridge",
         "price": 1399.99,
@@ -376,7 +329,6 @@
         "image": "https://www.lg.com/africa/images/refrigerators/md05871616/gallery/DZ_02.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC5",
         "name": "Whirlpool Bottom Freezer Fridge",
         "category": "fridge",
         "price": 899.99,
@@ -384,7 +336,6 @@
         "image": "https://www.pcrichard.com/dw/image/v2/BFXM_PRD/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dwca08493d/images/hires/AZ1_WRB322DMBM.jpg?sw=800&sh=800&sm=fit"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC6",
         "name": "Siemens French Door Fridge",
         "category": "fridge",
         "price": 1199.99,
@@ -392,7 +343,6 @@
         "image": "https://i.pinimg.com/474x/73/c7/46/73c7463c8622821cb0376cec0b9fb0ec.jpg"
     },
     {
-        "_id": "0x5F7C8E3D5F6A8B7E2D5A3CC7",
         "name": "Daikin Window AC",
         "category": "ac",
         "price": 499.99,

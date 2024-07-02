@@ -23,16 +23,13 @@ const Navbar = () => {
             user && <>
                 {
                     isAdmin ?
-                        <>
+                        (
                             <li><Link to="/dashboard/users">Dashboard</Link></li>
-                        </> :
+                        ) :
                         <li><Link to="/dashboard/cart">Cart</Link></li>
                 }
             </>
         }
-        {/* {
-            isAdmin && <li><Link to="/dashboard/users">Dashboard</Link></li>
-        } */}
         <li><Link to="/about">About Us</Link></li>
         {
             user ?

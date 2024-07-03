@@ -2,10 +2,13 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
+import { useState } from "react";
 
 const Login = () => {
 
     const { signIn } = useAuth()
+
+    const [error,setError] = useState("");
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -17,6 +20,7 @@ const Login = () => {
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
+        setError("")
         signIn(email, password)
             .then(result => {
                 const user = result.user;
@@ -39,6 +43,9 @@ const Login = () => {
                     }
                 });
                 navigate(from, { replace: true });
+            })
+            .catch(err=>{
+                setError(err.message)
             })
     }
 
@@ -75,6 +82,7 @@ const Login = () => {
                             </div>
                         </form>
                         <p className='mx-auto mb-3'><small>Don't have account?<Link to="/register" className='text-red-800'>Sign up here</Link></small></p>
+                        <span className="text-red-500">{error}</span>
                         {/* <SocialLogin></SocialLogin> */}
                     </div>
                 </div>

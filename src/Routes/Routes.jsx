@@ -13,6 +13,7 @@ import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
 import AddItems from "../Pages/Dashboard/AddItems/AddItems";
 import ManageItems from "../Pages/Dashboard/ManageItems/ManageItems";
 import UpdateItem from "../Pages/Dashboard/UpdateItem/UpdateItem";
+import Contact from "../Pages/Contact/Contact";
 
   export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ import UpdateItem from "../Pages/Dashboard/UpdateItem/UpdateItem";
             {
                 path: "/",
                 element: <Home/>
+            },
+            {
+                path: "/contact",
+                element: <Contact/>
             },
             {
                 path: "/login",

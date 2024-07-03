@@ -3,10 +3,55 @@ import contact_image from '../../assets/contact-back.webp';
 import './Contact.css'
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaMobileAlt } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
+import { useRef, useState } from 'react';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
+
+    const formRef = useRef(null);
+
+    const [result,setResult] = useState("")
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", import.meta.env.VITE_FORM_ACCESS_KEY);
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: json
+        }).then((res) => res.json());
+
+        if (res.success) {
+            Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Your message has been sent successfully",
+                showConfirmButton: false,
+                timer: 1500
+              });
+              formRef.current.reset();
+              setResult("");
+        }
+        else{
+            setResult(res.message)
+        }
+    };
+
     return (
         <div>
+            <Helmet>
+                <title>Rimon Electronics - Contact</title>
+            </Helmet>
             <div
                 className="hero height"
                 style={{
@@ -28,21 +73,22 @@ const Contact = () => {
                     <div className="card bg-base-100 w-1/2 shrink-0 shadow-2xl p-8">
                         <h2 className='text-4xl font-bold text-center mb-3'>Reach Out To Me!</h2>
                         <p className='text-center text-gray-600'>I'm present 24*7 for my clients; get in touch with me <br /> and scale your business with flooding revenues!</p>
-                        <form className="card-body">
+                        <form onSubmit={onSubmit} className="card-body" ref={formRef}>
                             <div className="form-control mb-3">
-                                <input type="text" placeholder="Full Name" className="input input-bordered" required />
+                                <input type="text" name='name' placeholder="Full Name" className="input input-bordered" required />
                             </div>
                             <div className="form-control mb-3">
-                                <input type="email" placeholder="Email" className="input input-bordered" required />
+                                <input type="email" name='email' placeholder="Email" className="input input-bordered" required />
                             </div>
                             <div className="form-control mb-3">
-                                <input type="text" placeholder="Mobile Number With Country Code" className="input input-bordered" required />
+                                <input type="text" name='number' placeholder="Mobile Number With Country Code" className="input input-bordered" required />
                             </div>
                             <div className="form-control mb-3">
                                 <textarea
                                     placeholder="Your Message"
                                     className="textarea textarea-bordered"
                                     rows="5"
+                                    name='message'
                                     required
                                 ></textarea>
                             </div>
@@ -50,6 +96,7 @@ const Contact = () => {
                                 <button className="btn btn-error text-white">Submit</button>
                             </div>
                         </form>
+                        <span>{result}</span>
                     </div>
 
                     <div className="text-2xl w-full lg:text-left mr-8">

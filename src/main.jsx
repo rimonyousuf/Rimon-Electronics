@@ -11,6 +11,7 @@ import {
 } from '@tanstack/react-query';
 import AuthProvider from './providers/AuthProvider';
 import { HelmetProvider } from 'react-helmet-async';
+import { CurrencyProvider } from './hooks/CurrencyProvider';
 
 const queryClient = new QueryClient()
 
@@ -19,9 +20,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AuthProvider>
       <QueryClientProvider client={queryClient}>
         <HelmetProvider>
-          <div className='max-w-screen-xl mx-auto'>
-            <RouterProvider router={router} />
-          </div>
+          <CurrencyProvider>
+            <div className='max-w-screen-xl mx-auto'>
+              <RouterProvider router={router} />
+            </div>
+          </CurrencyProvider>
         </HelmetProvider>
       </QueryClientProvider>
     </AuthProvider>

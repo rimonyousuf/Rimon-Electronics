@@ -3,11 +3,15 @@ import logo from "../../../assets/logo.png"
 import './Navbar.css'
 import useAuth from "../../../hooks/useAuth";
 import useAdmin from "../../../Utilities/useAdmin";
+import { useContext } from "react";
+import { CurrencyContext } from "../../../hooks/CurrencyProvider";
 
 const Navbar = () => {
 
     const { user, logOut } = useAuth()
     const [isAdmin] = useAdmin();
+
+    const { currency, setCurrency } = useContext(CurrencyContext)
 
     const handleLogOut = () => {
         logOut()
@@ -15,6 +19,10 @@ const Navbar = () => {
             .catch(error => {
                 console.log(error)
             })
+    }
+
+    const handleCurrencyChange = (e) => {
+        setCurrency(e.target.value);
     }
 
     const navOptions = <>
@@ -42,6 +50,10 @@ const Navbar = () => {
                     <li><Link to="/register">Register</Link></li>
                 </>
         }
+        <select onChange={handleCurrencyChange} value={currency} className="select select-bordered ml-4 bg-blue-950">
+            <option value="USD">USD</option>
+            <option value="BDT">BDT</option>
+        </select>
     </>
 
     return (

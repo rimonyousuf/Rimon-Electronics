@@ -3,6 +3,8 @@ import useAxiosSecure from "../../../Utilities/useAxiosSecure";
 import useCart from "../../../Utilities/useCart";
 import useAuth from "../../../hooks/useAuth";
 import Swal from "sweetalert2";
+import { useContext } from "react";
+import { CurrencyContext } from "../../../hooks/CurrencyProvider";
 
 const Items = ({ product }) => {
 
@@ -13,6 +15,8 @@ const Items = ({ product }) => {
     const [, refetch] = useCart()
 
     const { user } = useAuth()
+
+    const { currency } = useContext(CurrencyContext);
 
     const handleAddToCart = () => {
         if (user && user.email) {
@@ -54,6 +58,8 @@ const Items = ({ product }) => {
         }
     }
 
+    const displayPrice = currency === 'BDT' ? `৳${(price * 112).toFixed(2)}` : `$${price.toFixed(2)}`;
+
     return (
         <div className="card bg-base-100 w-96 shadow-xl mt-4">
             <figure>
@@ -65,7 +71,7 @@ const Items = ({ product }) => {
                 <p>{description}</p>
                 <div className="card-actions justify-center font-bold mt-4">
                     <div className="badge badge-outline">{category}</div>
-                    <div className="badge badge-outline">$ {price}</div>
+                    <div className="badge badge-outline">{displayPrice}</div>
                 </div>
             </div>
             <button onClick={handleAddToCart} className="btn btn-outline btn-primary m-2">Add to Cart</button>

@@ -4,12 +4,16 @@ import useCart from "../../Utilities/useCart";
 import { Link } from "react-router-dom";
 import { FaTrashAlt } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
+import { useContext } from "react";
+import { CurrencyContext } from "../../hooks/CurrencyProvider";
 
 const Cart = () => {
 
     const [cart, refetch] = useCart();
     const totalPrice = cart.reduce((total, item) => total + item.price, 0)
     const axiosSecure = useAxiosSecure();
+
+    const { currency } = useContext(CurrencyContext)
 
     const handleDelete = id => {
         Swal.fire({
@@ -37,6 +41,9 @@ const Cart = () => {
         });
     }
 
+    const total = cart.reduce((sum, item) => sum + item.price, 0);
+    const convertedTotal = currency === 'BDT' ? total * 112 : total;
+
     return (
         <div>
             <Helmet>
@@ -44,7 +51,7 @@ const Cart = () => {
             </Helmet>
             <div className="flex justify-evenly mb-8 py-8">
                 <h2 className="text-4xl">Items: {cart.length}</h2>
-                <h2 className="text-4xl">Total: ${totalPrice}</h2>
+                <h2 className="text-4xl">Total: {currency === 'BDT' ? `৳${convertedTotal.toFixed(2)}` : `$${total.toFixed(2)}`}</h2>
                 {cart.length ?
                     <Link to="/dashboard/payment">
                         <button className="btn btn-primary">Pay</button>
@@ -83,7 +90,7 @@ const Cart = () => {
                                 <td>
                                     {item.name}
                                 </td>
-                                <td>${item.price}</td>
+                                <td>{currency === 'BDT' ? `৳${(item.price * 112).toFixed(2)}` : `$${item.price.toFixed(2)}`}</td>
                                 <th>
                                     <button
                                         onClick={() => handleDelete(item._id)}

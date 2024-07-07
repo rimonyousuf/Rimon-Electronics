@@ -50,7 +50,7 @@ const Navbar = () => {
                     <li><Link to="/register">Register</Link></li>
                 </>
         }
-        <select onChange={handleCurrencyChange} value={currency} className="select select-bordered ml-4 bg-blue-950">
+        <select onChange={handleCurrencyChange} value={currency} className="select select-bordered ml-4 bg-blue-700">
             <option value="USD">USD</option>
             <option value="BDT">BDT</option>
         </select>

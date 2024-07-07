@@ -10,7 +10,6 @@ import { CurrencyContext } from "../../hooks/CurrencyProvider";
 const Cart = () => {
 
     const [cart, refetch] = useCart();
-    const totalPrice = cart.reduce((total, item) => total + item.price, 0)
     const axiosSecure = useAxiosSecure();
 
     const { currency } = useContext(CurrencyContext)

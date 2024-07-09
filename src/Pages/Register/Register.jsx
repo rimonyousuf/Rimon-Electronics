@@ -4,6 +4,7 @@ import useAuth from "../../hooks/useAuth";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
+import SocialLogin from "../../components/SocialLogin/SocialLogin";
 
 const Register = () => {
 
@@ -100,7 +101,7 @@ const Register = () => {
                             </div>
                         </form>
                         <p className='mx-auto mb-3'><small>Have an account?<Link className='text-red-800' to="/login">Login here</Link></small></p>
-                        {/* <SocialLogin></SocialLogin> */}
+                        <SocialLogin/>
                     </div>
                 </div>
             </div>

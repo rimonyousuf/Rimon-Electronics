@@ -19,11 +19,14 @@ const BkashPayment = () => {
         }
     }, [axiosSecure, totalPrice])
 
+    const onSubmit = data => {
+        console.log(data);
+    }
+
     return (
         <div className="w-1/3 mx-auto mt-10">
             <h1 className="text-center text-3xl text-pink-600 font-bold underline">Bkash Payment</h1>
-            {/* <form onSubmit={handleSubmit(onSubmit)} className="card-body"> */}
-            <form className="card-body">
+            <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                 <div className="form-control">
                     <input type="text" {...register("name", { required: true })} placeholder="Enter Your Name" className="input input-bordered" />
                     {errors.name && <span className="text-red-600">Name is required</span>}

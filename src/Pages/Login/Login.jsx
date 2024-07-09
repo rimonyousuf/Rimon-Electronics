@@ -3,6 +3,7 @@ import useAuth from "../../hooks/useAuth";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import SocialLogin from "../../components/SocialLogin/SocialLogin";
 
 const Login = () => {
 
@@ -83,7 +84,7 @@ const Login = () => {
                         </form>
                         <p className='mx-auto mb-3'><small>Don't have account?<Link to="/register" className='text-red-800'>Sign up here</Link></small></p>
                         <span className="text-red-500">{error}</span>
-                        {/* <SocialLogin></SocialLogin> */}
+                        <SocialLogin/>
                     </div>
                 </div>
             </div>

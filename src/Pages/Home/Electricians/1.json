@@ -1,0 +1,30 @@
+[
+    {
+      "name": "John Doe",
+      "category": "TV",
+      "image": "https://fpimages.withfloats.com/actual/619c7f3bc146a00001226cea.jpg",
+      "work_description": "Expert in TV repair and maintenance. Specializes in LED, LCD, and plasma screens, sound issues, and circuit board repairs.",
+      "experience": "10 years"
+    },
+    {
+      "name": "Jane Smith",
+      "category": "Fridge",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2021/9/MR/QK/YY/136633202/single-door-refrigerator-repair-services-500x500.jpg",
+      "work_description": "Experienced in diagnosing and fixing refrigerator issues, including cooling problems, compressor failures, and electrical issues.",
+      "experience": "8 years"
+    },
+    {
+      "name": "Alex Johnson",
+      "category": "AC",
+      "image": "https://shiptons.ca/wp-content/uploads/2023/05/Air-Conditioning-Maintenance-Service.webp",
+      "work_description": "Specializes in AC installation and repair. Handles split and window units, refrigerant leaks, compressor issues, and thermostat problems.",
+      "experience": "7 years"
+    },
+    {
+      "name": "Emily Davis",
+      "category": "Rice Cooker",
+      "image": "https://watermark.lovepik.com/photo/20211127/large/lovepik-workers-come-to-repair-rice-cookers-picture_501157441.jpg",
+      "work_description": "Expert in rice cooker repairs, including electronic and induction models. Skilled in fixing heating elements, timers, and controls.",
+      "experience": "5 years"
+    }
+  ]  

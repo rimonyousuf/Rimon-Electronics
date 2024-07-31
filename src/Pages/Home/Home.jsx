@@ -1,12 +1,8 @@
 import { Helmet } from "react-helmet-async";
-import useProducts from "../../Utilities/useProducts";
-import Items from "../Shared/Items/Items";
 import Banner from "./Banner/Banner";
 import Electricians from "./Electricians/Electricians";
 
 const Home = () => {
-
-    const [item] = useProducts();
 
     return (
         <>
@@ -15,14 +11,6 @@ const Home = () => {
             </Helmet>
             <Banner/>
             <Electricians/>
-            <div className="grid md:grid-cols-3 gap-12 mx-4">
-                {
-                    item.map((product) => <Items
-                        key={product._id}
-                        product={product}
-                    />)
-                }
-            </div>
         </>
     );
 };

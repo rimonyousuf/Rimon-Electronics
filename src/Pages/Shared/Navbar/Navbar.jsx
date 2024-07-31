@@ -38,19 +38,15 @@ const Navbar = () => {
                 }
             </>
         }
-        <li>
-            <div className="dropdown">
-                <div tabIndex={0} className="dropdown-trigger btn btn-ghost">
-                    Category
-                </div>
-                <ul className="dropdown-content menu p-2 shadow bg-blue-700 rounded-box w-52">
-                    <li><Link to="/category/tv">TV</Link></li>
-                    <li><Link to="/category/ac">AC</Link></li>
-                    <li><Link to="/category/fridge">Fridge</Link></li>
-                    <li><Link to="/category/rice cooker">Rice Cooker</Link></li>
-                </ul>
-            </div>
-        </li>
+        <div className="dropdown dropdown-bottom">
+            <div tabIndex={0} role="button" className="text-white mt-2 mx-3">Category</div>
+            <ul tabIndex={0} className="dropdown-content menu bg-blue-700 rounded-box z-[1] w-40 shadow">
+                <li><Link to="/category/TV">TV</Link></li>
+                <li><Link to="/category/AC">AC</Link></li>
+                <li><Link to="/category/Fridge">Fridge</Link></li>
+                <li><Link to="/category/Rice Cooker">Rice Cooker</Link></li>
+            </ul>
+        </div>
         <li><Link to="/contact">Contact</Link></li>
         {
             user ?

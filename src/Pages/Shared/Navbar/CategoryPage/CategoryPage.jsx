@@ -17,7 +17,7 @@ const CategoryPage = () => {
 
   return (
     <div className="category-page">
-      <h1 className="text-center text-3xl font-bold my-8">{subcategory.toUpperCase()} Products</h1>
+      <h1 className="text-center text-3xl font-bold my-8 pt-8">{subcategory}</h1>
       <div className="grid md:grid-cols-3 gap-12 mx-4">
         {filteredItems.length > 0 ? (
           filteredItems.map(product => (

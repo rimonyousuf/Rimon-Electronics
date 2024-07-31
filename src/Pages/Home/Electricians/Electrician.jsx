@@ -11,7 +11,7 @@ const Electrician = ({ person }) => {
                         src={image} />
                 </figure>
                 <div className="card-body text-center text-gray-700">
-                    <h2 className="text-2xl font-bold">{name}</h2>
+                    <h2 className="text-3xl font-bold">{name}</h2>
                     <p className="font-semibold">Category: {category} Technician</p>
                     <p className="font-semibold">Experience:  {experience}</p>
                     <p className="font-semibold w-1/2 mx-auto">{work_description}</p>

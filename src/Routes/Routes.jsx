@@ -1,6 +1,6 @@
 import {
     createBrowserRouter,
-  } from "react-router-dom";
+} from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -16,27 +16,32 @@ import UpdateItem from "../Pages/Dashboard/UpdateItem/UpdateItem";
 import Contact from "../Pages/Contact/Contact";
 import Payment from "../Pages/Dashboard/Payment/Payment";
 import PaymentHistory from "../Pages/Dashboard/PaymentHistory/PaymentHistory";
+import CategoryPage from "../Pages/Shared/Navbar/CategoryPage/CategoryPage";
 
-  export const router = createBrowserRouter([
+export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Main/>,
+        element: <Main />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
+            },
+            {
+                path: "/category/:subcategory",
+                element: <CategoryPage />
             },
             {
                 path: "/contact",
-                element: <Contact/>
+                element: <Contact />
             },
             {
                 path: "/login",
-                element: <Login/>
+                element: <Login />
             },
             {
                 path: "/register",
-                element: <Register/>
+                element: <Register />
             },
         ]
     },
@@ -47,35 +52,35 @@ import PaymentHistory from "../Pages/Dashboard/PaymentHistory/PaymentHistory";
             // normal user routes
             {
                 path: "cart",
-                element: <Cart/>
+                element: <Cart />
             },
             {
                 path: "payment",
-                element: <Payment/>
+                element: <Payment />
             },
             {
                 path: "paymentHistory",
-                element: <PaymentHistory/>
+                element: <PaymentHistory />
             },
 
             // admin route only
             {
                 path: "addItems",
-                element: <AdminRoute><AddItems/></AdminRoute>
+                element: <AdminRoute><AddItems /></AdminRoute>
             },
             {
                 path: "manageItems",
-                element: <AdminRoute><ManageItems/></AdminRoute>
+                element: <AdminRoute><ManageItems /></AdminRoute>
             },
             {
                 path: "updateItem/:id",
-                element: <AdminRoute><UpdateItem/></AdminRoute>,
-                loader: ({params})=>fetch(`http://localhost:5000/item/${params.id}`)
+                element: <AdminRoute><UpdateItem /></AdminRoute>,
+                loader: ({ params }) => fetch(`http://localhost:5000/item/${params.id}`)
             },
             {
                 path: "users",
-                element: <AdminRoute><AllUsers/></AdminRoute>
+                element: <AdminRoute><AllUsers /></AdminRoute>
             },
         ]
     }
-  ])
+])

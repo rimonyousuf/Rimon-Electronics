@@ -38,6 +38,19 @@ const Navbar = () => {
                 }
             </>
         }
+        <li>
+            <div className="dropdown">
+                <div tabIndex={0} className="dropdown-trigger btn btn-ghost">
+                    Category
+                </div>
+                <ul className="dropdown-content menu p-2 shadow bg-blue-700 rounded-box w-52">
+                    <li><Link to="/category/tv">TV</Link></li>
+                    <li><Link to="/category/ac">AC</Link></li>
+                    <li><Link to="/category/fridge">Fridge</Link></li>
+                    <li><Link to="/category/rice cooker">Rice Cooker</Link></li>
+                </ul>
+            </div>
+        </li>
         <li><Link to="/contact">Contact</Link></li>
         {
             user ?
